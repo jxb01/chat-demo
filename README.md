@@ -70,6 +70,12 @@ src/
   utils/               Shared utilities
 ```
 
+## Notes on large history imports
+
+When the static build is wrapped in an Android WebView app, importing a real export
+can appear to hang. See [docs/android-large-import.md](docs/android-large-import.md)
+for measurements, causes and a wrapper-side workaround.
+
 ## License
 
 [MIT](LICENSE). The build copies the license to `dist/LICENSE`; include it when distributing the app. Third-party dependencies are subject to their own licenses.
